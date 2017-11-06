@@ -41,7 +41,7 @@ division:
 		move v1, a0
 
 	_fin:
-		addi sp, sp, 8
 		lw a0, 0(sp)
 		lw a1, 4(sp)
+		addi sp, sp, 8
 		jr ra
